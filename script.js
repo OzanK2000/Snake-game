@@ -104,7 +104,7 @@ function checkCollision(){
         currentLength = 0
         break;
     }
-}
+    }
 }
 
 document.body.addEventListener('keydown', changeDirection)
