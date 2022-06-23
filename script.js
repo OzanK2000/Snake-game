@@ -99,11 +99,11 @@ function showScore(){
 function checkCollision(){
     for(let i = 0; i < snake.length; i++) {
         let snakeBody = snake[i]
-    if(snakeBody.x === head.x && snakeBody.y === head.y){
-        dead()
-        currentLength = 0
-        break;
-    }
+        if(snakeBody.x === head.x && snakeBody.y === head.y){
+            dead()
+            currentLength = 0
+            break;
+        }
     }
 }
 
