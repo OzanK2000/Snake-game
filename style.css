@@ -5,22 +5,28 @@
     transform: translate(-50%, -50%);
 }
 
-h1{
+/* h1{
     text-align: center;
     font-family: sans-serif;
     margin-top: 6rem;
     font-size: 4rem;
     color: white;
-}
+} */
 
 p{
     text-align: center;
     font-family: sans-serif;
-    margin-top: 4.5rem;
+    margin-top: 15rem;
     font-size: 1rem;
     color: white;
 }
 
 body{
-    background-color: #393936;
+    background-color: black;
+}
+
+#snakeTitle{
+    position: absolute;
+    top: 2rem;
+    left: 37.25%;
 }

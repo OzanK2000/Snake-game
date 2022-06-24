@@ -1,9 +1,9 @@
 "use strict"
 
 const board_border = '#FFFFFF'
-const board_background = '#DABE09'
+const board_background = '#0758F0'
 const snake_col = '#FFFFFF'
-const snake_border = 'black'
+const snake_border = 'white'
 
 let snake = []
 let currentLength = 0
@@ -83,7 +83,7 @@ function drawSnakePart(snakePart)
 }
 
 function drawFood(){
-    snakeboard_ctx.fillStyle = "green"
+    snakeboard_ctx.fillStyle = "red"
     snakeboard_ctx.fillRect(foodX, foodY, 10, 10)
 }
 
