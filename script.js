@@ -14,7 +14,8 @@ let foodY = 100
 let score = 0
 
 const foodEaten = new Audio("gulp.mp3")
-// const backgroundMusic = new Audio("supersonic.mp3")
+const backgroundMusic = new Audio("supersonic.mp3")
+backgroundMusic.volume = 0.1
 
 let head = {x:200, y:200, dx:0, dy:-10}
 const canvas = document.getElementById("snakeboard")
@@ -22,7 +23,7 @@ const snakeboard_ctx = canvas.getContext("2d")
 setInterval(cycle, 100)
 
 function cycle() {
-    // backgroundMusic.play()
+    backgroundMusic.play()
     snake.push({x:head.x,y:head.y})
     head.x+=head.dx
     head.y+=head.dy
