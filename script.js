@@ -20,7 +20,7 @@ backgroundMusic.volume = 0.1
 let head = {x:200, y:200, dx:0, dy:-10}
 const canvas = document.getElementById("snakeboard")
 const snakeboard_ctx = canvas.getContext("2d")
-setInterval(cycle, 100)
+setInterval(cycle, 85)
 
 function cycle() {
     backgroundMusic.play()
