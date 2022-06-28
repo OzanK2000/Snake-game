@@ -15,7 +15,7 @@ let score = 0
 
 const foodEaten = new Audio("gulp.mp3")
 const backgroundMusic = new Audio("supersonic.mp3")
-backgroundMusic.volume = 0.1
+backgroundMusic.volume = 0.03
 
 let head = {x:200, y:200, dx:0, dy:-10}
 const canvas = document.getElementById("snakeboard")
